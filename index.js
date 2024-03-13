@@ -11,11 +11,13 @@ let person = {
 
 let array = [5, 'name']
 
-function func() {
+function func(name) {
 
-    console.log('Hello World!')
+    console.log('Hello ' + name + '!')
+    console.log('Hello {name} !')
+    return true
 }
 
 
-func()
+func('mamad')
 console.log(array)
