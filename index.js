@@ -5,9 +5,17 @@ var type = typeof variable
 console.log(type);
 
 let person = {
-    name : 'mamad',
-    age : 20
+    name: 'mamad',
+    age: 20
+}
+
+let array = [5, 'name']
+
+function func() {
+
+    console.log('Hello World!')
 }
 
 
-console.log(person)
+func()
+console.log(array)
